@@ -12,6 +12,12 @@
       <span class="fa fa-forward"></span>
     <% end %>
   <% end %>
+  <br />
+  <br />
+  <%= link_to course_path(current_lesson.section.course), class: 'btn btn-default float-right' do %>
+    Back to Course &nbsp;
+    <span class="fa fa-home"></span>
+  <% end %>
 
   <br class="clr" />
   <br />
